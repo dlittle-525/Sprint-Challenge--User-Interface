@@ -231,6 +231,21 @@ header nav a {
     background: teal;
 }
 
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.about-box {
+    width: 45%;
+}
+
+button {
+    border-radius: 20px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
